@@ -2,6 +2,10 @@ import React from 'react'
 import Hero from './components/Hero'
 import About from './components/About'
 import Navbar from './components/Navbar'
+import Feature from './components/Feature'
+import Story from './components/Story'
+import Contact from './components/Contact'
+import Footer from './components/footer'
 
 const App = () => {
   return (
@@ -9,7 +13,11 @@ const App = () => {
     <Navbar/>
     <Hero/>
     <About />
-    <section className='w-dvw h-dvh bg-purple-400' />
+    <Feature />
+    <Story />
+    <Contact />
+    <Footer />
+   
   </main>
   )
 }
